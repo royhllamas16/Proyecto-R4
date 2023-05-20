@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Título de mi Primera Página WEB HTML</title>
+    <link rel="stylesheet" href="./mihojadeestilos.css"/>
+    <!-- <style>
+        div p {
+            border: 3px solid rgb(255, 0, 0);
+            background-color: rgb(17, 50, 50);
+        }
+    </style> -->
+
+</head>
+<body>  
+    <form action="recibirdatos" method="POST">
+        <label for="codigo">Ingrese el Código del Producto:</label>
+        <input id="codigo" name="codigo" value="123"/><br><br>
+
+        <label for="descr">Descripción del Producto:</label>
+        <input id="descr" name="descr" placeholder="Nombre del Producto"/><br><br>
+
+        <label for="valorU"> Valor Unitario:</label>
+        <input id="valorU" name="valorU"/><br><br>
+
+        <label for="cantidad">Ingrese la Cantidad:</label>
+        <input id="cantidad" name="cantidad" placeholder="Unidades" value="12"/><br><br>
+        
+        <label for="valorT">Ingrese Valor Total:</label>
+        <input id="valorT" name="valorT"/><br><br>
+        <input type="checkbox" />
+        <input type="password" />
+        <input type="radio" /><br><br>
+        <label for="opinion">Comentario Adicional:</label><br>
+        <textarea id="opinion"  rows=7 cols= 100 name="comentario" >Esto es un valor por defecto</textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar Datos"/>
+        <input type="reset" value="Resetear Datos"/>
+        <input type="button" value="Nada Programado"/>
+        <br><br>
+        <button type="submit"> Enviar Datos</button>
+        <button type="reset">Resetear Datos</button> 
+
+        
+
+        <button type="button" > <img src="Campus.png" width="16px"/> Nada Programado </button>
+
+    </form>
+    
+    <table class="miestilo" id=inicio style="width: 800px">
+        <tr class="miestilo">
+            <th>Código</th> <th>Producto</th> <th>valor Unitario</th>
+            <th>cantidad</th> <th>precio</th>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Camisas</td>
+            <td>70000</td>
+            <td>10</td>
+            <td>700000</td>
+        </tr>
+        <tr>
+            <td>012</td>
+            <td>Pañuelos de seda estampados</td>
+            <td>25000</td>
+            <td>10</td>
+            <td>250000</td>
+        </tr>
+        <tr>
+            <td>135</td>
+            <td>Zapatos</td>
+            <td>150000</td>
+            <td>10</td>
+            <td>1500000</td>
+        </tr>
+        <tr>
+            
+        </tr>
+    </table>
+
+
+
+
+    <ul class="miestilo" type=circle>
+        <li>Lenguaje C</li>
+        <li>Visual .Net</li>
+        <li>Java Script</li>
+        <li>Power Builder</li>
+    </ul>
+
+    <ol>
+        <li value="20">Lenguaje C</li>
+        <li>Visual .Net</li>
+        <ol style="list-style-type: upper-alpha;">
+            <li>C#</li>
+            <li>Visual Basic .net#</li>
+            <li>f#</li>
+        </ol>
+
+        <li>Java Script</li>
+        <li>Power Builder</li>
+        <li>Lenguaje C</li>
+        <li>Visual .Net</li>
+        <li>Java Script</li>
+        <li>Power Builder</li>
+    </ol>
+
+    <h1 id="ini">Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+
+    <div>
+        <p class="miestilo">
+            Lorem Ipsum es simplemente el texto de relleno de las 
+            imprentas y archivos de texto. <span style="color:red; font-weight:bold"> Lorem Ipsum </span>ha sido 
+            el texto de relleno estándar de las industrias desde el año 1500, 
+            cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+            desconocido usó una galería de textos y los mezcló de tal manera que 
+            logró hacer un libro de textos especimen.<br> <hr>No sólo sobrevivió 500 años, 
+            sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+            quedando esencialmente igual al original. 
+        </p>
+    </div>
+    <p id="SegundoParrafo">
+        Lorem Ipsum es simplemente el texto de relleno de las 
+        imprentas y archivos de texto. <span style="color:red; font-weight:bold"> Lorem Ipsum </span>ha sido 
+        el texto de relleno estándar de las industrias desde el año 1500, 
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+        desconocido usó una galería de textos y los mezcló de tal manera que 
+        logró hacer un libro de textos especimen.<br> <hr>No sólo sobrevivió 500 años, 
+        sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+        quedando esencialmente igual al original. Fue popularizado en los 60s con 
+        la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem 
+        Ipsum, y más recientemente con software de autoedición, como por ejemplo 
+        Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+    </p>
+    <p>
+        Lorem Ipsum es simplemente el texto de relleno de las 
+        imprentas y archivos de texto. <span style="color:red; font-weight:bold"> Lorem Ipsum </span>ha sido 
+        el texto de relleno estándar de las industrias desde el año 1500, 
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+        desconocido usó una galería de textos y los mezcló de tal manera que 
+        logró hacer un libro de textos especimen.<br> <hr>No sólo sobrevivió 500 años, 
+        sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+        quedando esencialmente igual al original. Fue popularizado en los 60s con 
+        la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem 
+        Ipsum, y más recientemente con software de autoedición, como por ejemplo 
+        Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+    </p>
+    <p>
+        Lorem Ipsum es simplemente el texto de relleno de las 
+        imprentas y archivos de texto. <span style="color:red; font-weight:bold"> Lorem Ipsum </span>ha sido 
+        el texto de relleno estándar de las industrias desde el año 1500, 
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+        desconocido usó una galería de textos y los mezcló de tal manera que 
+        logró hacer un libro de textos especimen.<br> <hr>No sólo sobrevivió 500 años, 
+        sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+        quedando esencialmente igual al original. Fue popularizado en los 60s con 
+        la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem 
+        Ipsum, y más recientemente con software de autoedición, como por ejemplo 
+        Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+    </p>
+
+    <div>
+        <p>
+            Lorem Ipsum es simplemente el texto de relleno de las 
+            imprentas y archivos de texto. <span style="color:red; font-weight:bold"> Lorem Ipsum </span>ha sido 
+            el texto de relleno estándar de las industrias desde el año 1500, 
+            cuando un impresor (N. del T. persona que se dedica a la imprenta) 
+            desconocido usó una galería de textos y los mezcló de tal manera que 
+            logró hacer un libro de textos especimen.<br> <hr>No sólo sobrevivió 500 años, 
+            sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+            quedando esencialmente igual al original. Fue popularizado en los 60s con 
+            la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem 
+            Ipsum, y más recientemente con software de autoedición, como por ejemplo 
+            Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+        </p>
+    </div>
+   <!-- Esto es un comentario  -->
+    <img src="campus.png" height="100">
+    <a href="https://www.google.com" target="_blank"> Ir a google </a><br>
+    <a href="mailto:rhllamas@gmail.com">Enviar correo al autor</a><br>
+    <a href="#Inicio">ir al inicio de la página</a><br>
+</body>
+
+<div>
+
+</div>
+<div>
+    
+</div>
+<div>
+    
+</div>
+</html>
