@@ -1,0 +1,20 @@
+#estiloArticle{
+    background-color: rgba(0,0,0,0.2);
+    /* opacity: 0.9;  */
+    color:#ffff00
+}
+.pruebaEstilo {
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: #f00;
+    border: 5px black solid;
+    /*border: 3px black dotted;*/
+    /*border: 3px black dashed;*/
+    /*border: 3px black double;*/
+    /* border: 20px red groove; */
+    /* border: 20px red ridge; */
+    /* border: 20px red inset; */
+    /* border: 20px red outset; */
+    border-width: 0.5rem;
+    border-radius: 20px; 
+    padding: 5px;
+}
